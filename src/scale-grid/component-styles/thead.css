@@ -1,0 +1,15 @@
+.scale-grid__thead {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.75rem;
+    font-weight: 500;
+    overflow-x: auto;
+}
+
+.scale-grid__thead .scale-grid__tr {
+    color: inherit;
+    height: 56px;
+}
+
+.scale-grid__thead::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,42 @@
+.loading-indicator__container {
+    position: relative;
+}
+
+.loading-indicator__refresh-icon {
+    display: inline-block;
+    position: relative;
+}
+
+.table-details__table-title {
+    font-size: 26px;
+    padding-left: 0.5em;
+    font-style: italic;
+}
+
+.table-details__row-count {
+    margin: 0;
+    color: #7A7A7A;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 0.2em;
+    direction: rtl;
+}
+
+.action-link:hover {
+    color: #4585f0;
+    cursor: pointer;
+}
+
+.scale-grid__panel__title {
+    font-size: 26px;
+    padding-left: 0.5em;
+    font-style: italic;
+}
+
+.scale-grid__panel__doc__count, .scale-grid__panel__export {
+    margin: 0;
+    color: #7A7A7A;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 0.2em;
+}

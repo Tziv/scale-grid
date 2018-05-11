@@ -1,0 +1,9 @@
+.scale-grid__tbody {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.8125rem;
+    height: 400px;
+}
+
+.scale-grid__tbody .scale-grid__tr {
+    height: 48px;
+}

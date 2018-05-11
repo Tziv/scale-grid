@@ -1,0 +1,6 @@
+.result-renderer {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+}

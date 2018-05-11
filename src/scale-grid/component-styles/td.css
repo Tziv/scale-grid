@@ -1,0 +1,17 @@
+.scale-grid__td {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 0.8125rem;
+    border-bottom: 1px solid rgba(235,235,235,1);
+
+}
+
+.scale-grid-cell-defaults {
+    padding: 4px 24px 4px 56px;
+    box-sizing: content-box;
+    width: 2em;
+}
+
+.scale-grid__td:first-child {
+    padding-right: 24px;
+}

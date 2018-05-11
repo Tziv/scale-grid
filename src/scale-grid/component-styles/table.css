@@ -1,0 +1,7 @@
+.scale-grid__table {
+    border-spacing: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 10em;
+}

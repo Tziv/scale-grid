@@ -1,0 +1,8 @@
+.column-selection__column-name-list div {
+    display: inline-block;
+    width: 15%;
+}
+
+.column-selection__column-name-list {
+    direction: rtl;
+}

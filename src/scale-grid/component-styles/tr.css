@@ -1,0 +1,11 @@
+.scale-grid__tr {
+    height: 48px;
+    color: inherit;
+    display: table-row;
+    vertical-align: middle;
+    overflow: scroll;
+}
+
+.scale-grid__tbody .scale-grid__tr:hover {
+    background: #EEEEEE;
+}

@@ -1,0 +1,15 @@
+.scale-grid__th {
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    outline: none;
+    overflow: visible;
+    position: relative;
+    line-height: 56px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.scale-grid__th:first-child {
+    padding-right: 24px;
+}
