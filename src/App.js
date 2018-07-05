@@ -10,7 +10,7 @@ import ResultRenderer from './result-renderer/result-renderer';
 function getColumns() {
     const cols = [];
     for (let i = 0; i < 20; i++) {
-        cols.push('עמודה' + (i + 1));
+        cols.push('Col' + (i + 1));
     }
     return cols;
 }

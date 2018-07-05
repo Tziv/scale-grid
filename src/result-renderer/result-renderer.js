@@ -54,7 +54,7 @@ export default class ResultRenderer extends Component {
 function getRow(currentRowCount, columns) {
     let row = {};
     for (let i = 0; i < columns.length; i++) {
-        row[columns[i]] = 'שורה ' + (currentRowCount + 1) + ' ' + columns[i]
+        row[columns[i]] = 'Row ' + (currentRowCount + 1) + ' ' + columns[i]
     }
     return row;
 }

@@ -55,7 +55,7 @@ export default class ScaleGridToolbar extends Component {
             lockedIndicator =
                 <div className="lock-indicator__container">
                     <IconButton
-                        tooltip="פתח נעילת טבלה"
+                        tooltip="Unlock Table"
                         tooltipPosition="top-center"
                         onClick={this.props.onLockClicked}>
                         <Lock/>
@@ -65,7 +65,7 @@ export default class ScaleGridToolbar extends Component {
             lockedIndicator =
                 <div className="lock-indicator__container">
                     <IconButton
-                        tooltip="נעל טבלה"
+                        tooltip="Lock Table"
                         tooltipPosition="top-center"
                         onClick={this.props.onLockClicked}
                     >
@@ -79,7 +79,7 @@ export default class ScaleGridToolbar extends Component {
                 <ToolbarGroup firstChild={true}>
                     {lockedIndicator}
                 <RaisedButton
-                    label="ייצא לאקסל"
+                    label="Export to XLSX"
                     onClick={this.props.onExportToXLClicked}
                     style={style.button}
                     icon={<FileDownload/>}
@@ -90,7 +90,7 @@ export default class ScaleGridToolbar extends Component {
                 </ToolbarGroup>
                 <ToolbarGroup>
                     <RaisedButton
-                    label="בחר עמודות"
+                    label="Select Columns"
                     primary={true}
                     onClick={this.onOpenColumnSelectionClicked}
                     style={style.button}

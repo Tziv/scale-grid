@@ -104,12 +104,12 @@ export default class ScaleGridColumnSelection extends Component {
     render() {
         const actions = [
             <FlatButton
-                label="שמור שינויים"
+                label="Save Changes"
                 primary={true}
                 onClick={this.onConfirmClicked}
             />,
             <FlatButton
-                label="סגור ללא שינויים"
+                label="Close Without Saving"
                 onClick={this.onCancelClicked}
             />];
 
@@ -121,7 +121,7 @@ export default class ScaleGridColumnSelection extends Component {
                 autoScrollBodyContent={true}
                 titleStyle={style.titleStyle}
                 contentStyle={style.contentStyle}
-                title={"בחר עמודות להצגה בטבלה " + this.props.title}
+                title={"Select Columns to display in: " + this.props.title}
                 actionsContainerStyle={style.actionsContainerStyle}>
                 <List className={'column-selection__column-name-list'}>
                     {this.createListItemsFromHeaders(this.props.columns)}
